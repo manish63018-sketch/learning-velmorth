@@ -1,0 +1,43 @@
+{
+  "name": "Learn with Velmorth",
+  "short_name": "Velmorth",
+  "description": "Japanese learning app with gamified progression, AI tutor, and spaced repetition.",
+  "start_url": "/home",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0B1220",
+  "theme_color": "#16A34A",
+  "lang": "en",
+  "categories": ["education", "language"],
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Continue Learning",
+      "short_name": "Learn",
+      "description": "Jump straight to your lesson path",
+      "url": "/path",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Review Cards",
+      "short_name": "Review",
+      "description": "Start your spaced-repetition review",
+      "url": "/review",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}

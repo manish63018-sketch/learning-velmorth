@@ -1,0 +1,38 @@
+# Build outputs
+.next
+out
+dist
+
+# Dependencies (Vercel installs fresh)
+node_modules
+**/node_modules
+
+# Turbo cache
+.turbo
+**/.turbo
+
+# Android / non-web code
+/build/
+/gradle/
+/.gradle/
+/.kotlin/
+/.idea/
+/src/
+*.apk
+*.aab
+*.keystore
+
+# Log files
+*.log
+logcat*.txt
+new_logcat.txt
+build_output.txt
+build_fresh.txt
+window_dump*.xml
+
+# Local env
+.env.local
+.env*.local
+
+# Misc
+.firebase/
